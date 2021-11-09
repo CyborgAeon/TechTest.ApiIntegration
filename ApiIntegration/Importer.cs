@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 
 namespace ApiIntegration
 {
+    /// <summary>
+    /// Entry for solution.
+    /// </summary>
     public class Importer : IImporter
     {
         private readonly ITourRepository tourRepository;
